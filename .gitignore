@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Local configuration and secrets. Keep .env.example committed instead.
+.env
+.env.*
+!.env.example
+
+# Test and runtime output
+coverage/
+*.log
+npm-debug.log*
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/

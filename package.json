@@ -1,0 +1,22 @@
+{
+  "name": "glean-faq-rag-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small, grounded FAQ RAG service exposed through an Express API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage"
+  },
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "openai": "^6.49.0"
+  }
+}
