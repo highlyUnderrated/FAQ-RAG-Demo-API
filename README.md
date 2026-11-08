@@ -479,10 +479,10 @@ Check that the information exists in a Markdown file under `FAQ_DIR`. If it does
 
 ## Submission checklist
 
-- [ ] `.env` is not committed
-- [ ] `npm ci` succeeds from a clean checkout
-- [ ] `npm test` passes
-- [ ] `npm start` builds the index and listens on port 3000
-- [ ] `/health` returns `{"status":"ok"}`
-- [ ] `/ask` returns only `answer` and `sources`
-- [ ] At least one real question has been tested against the supplied corpus
+- ✅ `.env` is not committed
+- ✅ `npm ci` succeeds from a clean checkout
+- ✅ `npm test` passes
+- ✅ `npm start` builds the index and listens on port 3000
+- ✅ `/health` returns `{"status":"ok"}`
+- ✅ `/ask` returns only `answer` and `sources`
+- ✅ At least one real question has been tested against the supplied corpus
